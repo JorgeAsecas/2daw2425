@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <form action="ficha.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" ><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" ><br>
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" ><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"  pattern="[0-9]{9}"><br>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" ><br>
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" ></textarea><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+
+
+    </form>
+</body>
+</html>
