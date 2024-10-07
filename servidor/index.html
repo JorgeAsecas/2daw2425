@@ -9,3 +9,12 @@
         <p>Documento</p>
 </body>
 </html>
+$con = 0;
+                if (in_array($letra, str_split($op2[$con]))):
+                    $res = "No hay ninguna diferencia";
+                    var_dump(strpos($op1, $letra) == strpos($op2, $letra));
+                else:
+                    $res = "Hay una diferencia en la posición ". (strpos($op1, $letra) + 1);
+
+
+                endif;
